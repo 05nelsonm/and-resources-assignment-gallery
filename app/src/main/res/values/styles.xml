@@ -15,4 +15,10 @@
         <item name="android:orientation">vertical</item>
     </style>
 
+    <style name="ColumnImageView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
 </resources>

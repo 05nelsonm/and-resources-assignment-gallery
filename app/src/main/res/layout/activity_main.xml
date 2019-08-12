@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:context=".MainActivity">
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    tools:context=".MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -15,11 +15,31 @@
             android:id="@+id/ll_left_column"
             style="@style/VerticalColumn">
 
+            <ImageView
+                android:id="@+id/iv1_left_column"
+                android:layout_height="137dp"
+                android:src="@drawable/abstract_abstract_expressionism_art_2505693"
+                style="@style/ColumnImageView"/>
+                <!--android:layout_width="match_parent"
+                android:adjustViewBounds="true"
+                android:padding="10dp"-->
+
+
         </LinearLayout>
-        
+
         <LinearLayout
             android:id="@+id/ll_right_column"
             style="@style/VerticalColumn">
+
+            <ImageView
+                style="@style/ColumnImageView"
+                android:id="@+id/iv1_right_column"
+                android:layout_height="wrap_content"
+                android:src="@drawable/adventure_automobile_classic_2533092" />
+                <!--android:layout_width="match_parent"
+                android:adjustViewBounds="true"
+                android:padding="10dp"-->
+
 
         </LinearLayout>
 
