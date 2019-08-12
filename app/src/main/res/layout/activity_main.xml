@@ -13,33 +13,29 @@
 
         <LinearLayout
             android:id="@+id/ll_left_column"
-            style="@style/VerticalColumn">
+            style="@style/VerticalColumn"
+            android:padding="10dp">
 
             <ImageView
                 android:id="@+id/iv1_left_column"
-                android:layout_height="137dp"
-                android:src="@drawable/abstract_abstract_expressionism_art_2505693"
-                style="@style/ColumnImageView"/>
-                <!--android:layout_width="match_parent"
-                android:adjustViewBounds="true"
-                android:padding="10dp"-->
-
+                style="@style/ColumnImageView"
+                android:src="@drawable/abstract_abstract_expressionism_art_2505693" />
+            <!--android:layout_width="match_parent"
+                android:adjustViewBounds="true"-->
 
         </LinearLayout>
 
         <LinearLayout
             android:id="@+id/ll_right_column"
-            style="@style/VerticalColumn">
+            style="@style/VerticalColumn"
+            android:padding="10dp">
 
             <ImageView
-                style="@style/ColumnImageView"
                 android:id="@+id/iv1_right_column"
-                android:layout_height="wrap_content"
+                style="@style/ColumnImageView"
                 android:src="@drawable/adventure_automobile_classic_2533092" />
-                <!--android:layout_width="match_parent"
-                android:adjustViewBounds="true"
-                android:padding="10dp"-->
-
+            <!--android:layout_width="match_parent"
+                android:adjustViewBounds="true"-->
 
         </LinearLayout>
 
