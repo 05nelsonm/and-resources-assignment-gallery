@@ -1,13 +1,11 @@
 package sats.stackemhigh.galleryapp
 
-import android.media.Image
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.LinearLayout
 import androidx.core.content.ContextCompat
-import androidx.core.widget.ImageViewCompat
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -38,7 +36,7 @@ class MainActivity : AppCompatActivity() {
         val layoutParams = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT)
 
         views.forEachIndexed { index, thisImageView ->
-                        thisImageView.layoutParams = layoutParams
+            thisImageView.layoutParams = layoutParams
             thisImageView.adjustViewBounds = true
             thisImageView.setPadding(0, 10, 0, 10)
             when {
