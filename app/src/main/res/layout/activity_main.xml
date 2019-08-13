@@ -18,6 +18,7 @@
 
             <ImageView
                 android:id="@+id/iv1_left_column"
+                android:contentDescription="@string/abstract_description"
                 style="@style/ColumnImageView"
                 android:src="@drawable/abstract_abstract_expressionism_art_2505693" />
             <!--android:layout_width="match_parent"
@@ -32,6 +33,7 @@
 
             <ImageView
                 android:id="@+id/iv1_right_column"
+                android:contentDescription="@string/vw_bug_description"
                 style="@style/ColumnImageView"
                 android:src="@drawable/adventure_automobile_classic_2533092" />
             <!--android:layout_width="match_parent"
