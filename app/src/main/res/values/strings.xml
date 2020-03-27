@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Gallery App</string>
+    <string name="abstract_description">image of flowers</string>
+    <string name="vw_bug_description">vw bug in desert</string>
+    <string name="aerial_description">aerial shot of plains</string>
+    <string name="beach_description">beautiful beach view</string>
+    <string name="dark_alley_description">contemporary alley shot</string>
+    <string name="city_view_description">awesome view of a city</string>
+    <string name="canada_description">fireworks in action</string>
+    <string name="flower_description">artsy flower shot</string>
+    <string name="shoes_description">shoes of an invisible man</string>
+    <string name="palm_trees_and_sky_description">laying on a beach looking up before bar tender comes to serve you your
+        whiskey neat
+    </string>
+    <string name="home_colors_description">home colors that I would never choose</string>
+    <string name="space_description">where I hope to be with my spaceship money in 10-20 years</string>
+</resources>
